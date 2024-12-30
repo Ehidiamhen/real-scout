@@ -11,10 +11,6 @@ export default function Index() {
       }}
     >
       <Text className="font-bold font-rubik my-10 text-3xl " >Welcome to Real Scout</Text>
-      <Link href="/sign-in" className="text-blue-200 font-bold"> Sign In</Link>
-      <Link href="/explore">Explore</Link>
-      <Link href="/profile"> Profile </Link>
-      <Link href="/properties/1"> Properties</Link>
     </View>
   );
 }
